@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+<!-- Curriculum Vitae -->
+<title>Resume :: SMS</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="icon" type="image" href="sms.png">
+
+
+<!-- CSS BootStrap -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+<!-- Script BootStrap -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+<style>
+
+    html,body,h1,h2,h3,h4,h5,h6 {
+      font-family: "Roboto", sans-serif;
+    }
+    a,a:hover{
+      color: #757575!important;
+      text-decoration:none!important;
+    }
+    .h4{
+      font-size: 1.2em;
+      font-family: "Sylfaen";
+      font-weight: bold;
+      background-color: transparent; 
+      color: #000;
+      /*z-index: 9999;*/
+      letter-spacing: 0.3em;
+    }
+
+    .vision h2{
+      font-family: "Times New Roman", Serif, sans-serif;
+      margin-top: 0.8em;
+      color: #009688;
+    }
+    .quotation-mark-left{
+      display: inline;
+      font-weight: bold;
+      font-size: 1.9em;
+      color: #009688;
+      font-family: "Times New Roman", Georgia, Serif;
+    }
+
+    .quotation-mark-right{
+      /*margin-left: 4.2em;*/
+      display: inline;
+      font-weight: bold;
+      font-size: 1.9em;
+      color: #009688;
+      font-family: "Times New Roman", Georgia, Serif;
+    }
+
+    .myvision{
+      font-family: "Times New Roman",Serif, sans-serif;
+      letter-spacing: 0.1em;
+      font-size: 1.3em;
+    }
+
+    .marks{
+      color: #009688;
+    }
+
+    .tech,.skills{
+      padding-top: 0.2em;
+      margin-left: 1em;
+    }
+    footer > a{
+      padding-right: 0.1em;
+    }
+
+</style>
+<body>
+
+<!-- Page Container -->
+<div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+  <div class="w3-row-padding">
+  
+    <!-- Left Column -->
+    <div class="w3-third">
+    
+      <div class="w3-white w3-text-grey w3-card-4">
+        <div class="w3-display-container">
+          <img class="img-responsive" src="pro.jpg" style="width:100%;" alt="SMS Profile Pic">
+          <div class="w3-display-bottomright w3-container">
+            <p class="h4 text-responsive">Shaikh Mehboob Siraj</p>
+          </div>
+        </div>
+
+
+        <br><div class="w3-container">
+          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Developer</p>
+          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Thane,Mumbai</p>
+          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>smehboobs62@gmail.com</p>
+          <p><i class="fa fa-globe fa-fw w3-margin-right w3-large w3-text-teal"></i><a href="#" target="_blank">sms.com</a></p>
+          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>+91 9702020991</p>
+          <hr>
+
+          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
+          
+          <p class="skills">Coding</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">90%</div>
+          </div>
+          
+          <p class="skills">Ability to work Independently and within Groups</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:98%">98%</div>
+          </div>
+
+          <p class="skills">Creating / Designing Complex Database</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:85%">85%</div>
+          </div>
+          
+          <p class="skills">Adaptability</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%">75%</div>
+          </div>
+          
+          <p class="skills">Comfortable Writing and Analyzing SQL Queries</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:50%">50%</div>
+          </div>
+          
+          <p class="skills">Experience With Git and Github</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:50%">50%</div>
+          </div><br><hr>
+
+      
+      <!-- Technologies -->
+
+          <p class="w3-large w3-text-theme"><b><i class="fa fa-arrow-right fa-fw w3-margin-right w3-text-teal"></i>Technologies</b></p>
+          
+          <p class="tech">HTML5 / CSS3</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:99%">99%</div>
+          </div>
+          
+          <p class="tech">PHP</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:95%">95%</div>
+          </div>
+          
+          <p class="tech">JavaScript / NodeJS / jQuery</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:50%">50%</div>
+            </div>
+          
+          <p class="tech">MySQL</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:95%">95%</div>
+            </div>
+          
+          <p class="tech">Bootstrap</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:50%">50%</div>
+          </div>
+          
+          <p class="tech">Python</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:45%">45%</div>
+          </div>
+          
+          <p class="tech">Laravel</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:15%">15%</div>
+          </div>
+          
+          <p class="tech">JAVA</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:70%">70%</div>
+          </div><br>
+        </div>
+      </div><br>
+
+    <!-- End Left Column -->
+    </div>
+
+    <!-- Right Column -->
+    <div class="w3-twothird">
+    
+      <!-- MOTO -->
+
+      <div class="w3-container w3-card-2 w3-white w3-margin-bottom">
+        <div class="vision">
+          <h2>Vision</h2>
+          <span class="quotation-mark-left">“ </span>
+          <!-- <p class="myvision">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            My Short term Goal is to see MySelf as a Software Developer in a well known Company where I can use my knowledge and Strangth and also want to be part of company success</p> -->
+            <span class="myvision">&nbsp;&nbsp;
+              My Vision is To become a Data Scientist.&nbsp;&nbsp;
+            </span>
+          <span class="quotation-mark-right">”</span>
+        </div><br>
+      </div>
+
+      <!-- Work Experience -->
+      
+      <div class="w3-container w3-card-2 w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>smscv .com</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Sept 2017 - &nbsp;<span class="w3-tag w3-teal w3-round">Current</span></h6>
+          <p>This site is about my Resume, which is 100% <code>developed</code> by <abbr title="Shaikh Mehboob Siraj">SMS</abbr> , using Bootstrap and W3.CSS Frameworks.</p>
+        </div>
+      </div>
+
+      <div class="w3-container w3-card-2 w3-white">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>B.E. Computer Engineering</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2015 - 2018</h6>
+          <p>Completed 3 Year of degree in Computer Engineering from <abbr title="Anjuman-I-Islam's Kalsekar Technical Campus">AI-KTC</abbr>&nbsp; New Panvel , New Mumbai</p>
+          <p> <b>CGPI</b>&nbsp;&nbsp;  &nbsp;&nbsp;<span class="marks">7.05 *</span></p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Diploma Computer Engineering</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2012 - 2015</h6>
+          <p>Completed 3 Year Diploma in Computer Engineering from <abbr title="Abdul Razzak Kalsekar Polytechnic">AI-ARKP</abbr>&nbsp; Panvel , New Mumbai</p>
+          <p>Aggr. &nbsp;&nbsp;&nbsp;<span class="marks">68.50 %</span></p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>SSC</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2012</h6>
+          <p>SSC Passed from <abbr title="Bosco English High School">BEHS</abbr> ,  Thane</p><p>Per. &nbsp; 66.91 %</p><br>
+        </div>
+      </div>
+
+    <!-- End Right Column -->
+    </div>
+    
+  <!-- End Grid -->
+  </div>
+  
+  <!-- End Page Container -->
+</div>
+
+<footer class="w3-container w3-teal w3-center w3-margin-top">
+  <p>Find me on Social Media.</p>
+  <a href="https://www.linkedin.com/in/mehboob-shaikh-86878b114" target="_blank" class="fa fa-linkedin w3-hover-opacity w3-xlarge"></a>
+  <a href="https://www.twitter.com/mehboob_siraj" target="_blank" class="fa fa-twitter w3-hover-opacity w3-xlarge"></a>
+  <a href="https://plus.google.com/u/0/116120727454439029205" target="_blank" class="fa fa-google-plus w3-xlarge w3-hover-opacity"></a>
+  <a href="#" class="fa fa-instagram w3-hover-opacity w3-xlarge"></a>
+  <a href="https://github.com/Mehboob96" target="_blank" class="fa fa-github w3-xlarge w3-hover-opacity"></a>
+  <p></p>
+</footer>
+
+</body>
+</html>
